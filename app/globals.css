@@ -1,0 +1,27 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: var(--font-geist);
+  --font-mono: var(--font-geist-mono);
+  --color-background: #0b0f12;
+  --color-foreground: #f0f3f2;
+  --color-panel: #12191d;
+  --color-panel-strong: #182126;
+  --color-muted: #8d9a9d;
+  --color-line: #29343a;
+  --color-accent: #b8e35d;
+  --color-accent-soft: #26341c;
+}
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body { margin: 0; background: #0b0f12; color: #f0f3f2; font-family: var(--font-geist), sans-serif; }
+button, input, textarea { font: inherit; }
+button { cursor: pointer; }
+::selection { background: #b8e35d; color: #0b0f12; }
+
+@keyframes pulse-ring { 0%, 100% { transform: scale(.94); opacity: .45; } 50% { transform: scale(1.08); opacity: .9; } }
+@keyframes breathe { 0%, 100% { box-shadow: 0 0 0 0 rgba(184,227,93,.1); } 50% { box-shadow: 0 0 0 12px rgba(184,227,93,0); } }
+.orb-ring { animation: pulse-ring 3.4s ease-in-out infinite; }
+.orb-core { animation: breathe 3.4s ease-in-out infinite; }
