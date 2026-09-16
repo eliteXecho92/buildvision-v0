@@ -12,7 +12,8 @@
   "dependencies": {
     "@ai-sdk/react": "latest",
     "@tailwindcss/postcss": "^4.3.3",
-    "ai": "latest",
+    "ai": "^7.0.102",
+    "eve": "^0.56.0",
     "lucide-react": "latest",
     "next": "latest",
     "react": "latest",
