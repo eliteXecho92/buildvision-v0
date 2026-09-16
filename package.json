@@ -21,9 +21,12 @@
     "tailwindcss": "^4.3.3"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "latest",
     "@types/react": "latest",
     "@types/react-dom": "latest",
-    "typescript": "latest"
+    "eslint": "^10.10.0",
+    "typescript": "latest",
+    "typescript-eslint": "^8.70.0"
   }
 }
