@@ -6,8 +6,8 @@ const geist = Geist({ subsets: ['latin'], variable: '--font-geist' })
 const geistMono = Geist_Mono({ subsets: ['latin'], variable: '--font-geist-mono' })
 
 export const metadata: Metadata = {
-  title: 'S.A.M. | BuildVision Strategic AI Manager',
-  description: 'The autonomous founder-level engineering control plane for the BuildVision ecosystem.',
+  title: 'S.A.M. — Strategic AI Manager | BuildVision',
+  description: 'BuildVision\'s founder-level autonomous engineering control plane.',
 }
 
 export const viewport: Viewport = {
